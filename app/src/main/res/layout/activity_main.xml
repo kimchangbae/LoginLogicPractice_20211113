@@ -17,8 +17,7 @@
     <EditText
         android:id="@+id/edtContentId"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="admin" />
+        android:layout_height="wrap_content" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,8 +29,7 @@
         android:id="@+id/edtContentPwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:text="qwer" />
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/btnLogin"

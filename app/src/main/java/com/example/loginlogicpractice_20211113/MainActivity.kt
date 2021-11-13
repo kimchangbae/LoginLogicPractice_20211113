@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         
         btnLogin.setOnClickListener { 
-            val id = edtContentId.text.toString()
-            val pwd = edtContentPwd.text.toString()
+            val inputId = edtContentId.text.toString()
+            val inputPwd = edtContentPwd.text.toString()
             
-            if(id == "admin" && pwd == "qwer") {
+            if(inputId == "admin" && inputPwd == "qwer") {
                 Toast.makeText(this, "관리자님 환영합니다.", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "로그인에 실패했습니다.", Toast.LENGTH_SHORT).show()
